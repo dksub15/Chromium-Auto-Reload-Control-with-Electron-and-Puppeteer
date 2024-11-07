@@ -11,7 +11,7 @@ Tecnologias Utilizadas
 
 **Como Executar o Projeto**
 Clone o repositório e navegue até a pasta do projeto:
-`git clone <link-do-repositorio>](https://github.com/dksub15/Chromium-Auto-Reload-Control-with-Electron-and-Puppeteer.git`
+`git clone https://github.com/dksub15/Chromium-Auto-Reload-Control-with-Electron-and-Puppeteer.git`
 
 `cd Chromium-Auto-Reload-Control-with-Electron-and-Puppeteer`
 Instale as dependências do projeto:
