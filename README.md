@@ -7,7 +7,7 @@ Um botão que permite iniciar e parar o recarregamento automático de uma págin
 **Recarregamento automático**:
 Controlado pelo Puppeteer, a página é recarregada em intervalos regulares (configurado para 1 minuto, mas personalizável).
 Modo de execução em segundo plano: Chromium pode ser executado em modo "headless" (sem interface gráfica) se preferir manter o navegador oculto.
-Tecnologias Utilizadas
+
 
 **Como Executar:**
 Clone o repositório e navegue até a pasta do projeto:
@@ -19,11 +19,3 @@ Instale as dependências do projeto:
 
 Inicie o aplicativo:
 `npx electron main.js`
-
-
-**Arquivos Principais**
-main.js: Controla a criação da janela Electron e o comportamento do navegador Chromium.
-preload.js: Configura a comunicação entre o backend e o frontend do Electron.
-index.html: Interface gráfica com o botão de controle.
-style.css: Estilos para a interface gráfica.
-package.json: Gerencia as dependências e configurações do projeto Node.js.
