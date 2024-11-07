@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reiniciar Chromium</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Controle do Chromium</h1>
+  <button id="toggle-btn">Iniciar</button>
+  <p id="status">Status: Parado</p>
+
+  <script>
+    const button = document.getElementById('toggle-btn');
+    const statusText = document.getElementById('status');
+
+    button.addEventListener('click', () => {
+      window.electronAPI.toggleRefresh();
+    });
+
+    // Atualiza o status ao receber mensagem do backend
+    window.electronAPI.updateStatus((status) => {
+      statusText.textContent = `Status: ${status}`;
+      button.textContent = status === 'Parado' ? 'Iniciar' : 'Parar';
+    });
+  </script>
+</body>
+</html>
