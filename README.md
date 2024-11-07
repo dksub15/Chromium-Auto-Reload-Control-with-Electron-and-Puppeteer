@@ -9,7 +9,7 @@ Controlado pelo Puppeteer, a página é recarregada em intervalos regulares (con
 Modo de execução em segundo plano: Chromium pode ser executado em modo "headless" (sem interface gráfica) se preferir manter o navegador oculto.
 Tecnologias Utilizadas
 
-**Como Executar o Projeto**
+**Como Executar:**
 Clone o repositório e navegue até a pasta do projeto:
 `git clone https://github.com/dksub15/Chromium-Auto-Reload-Control-with-Electron-and-Puppeteer.git`
 
