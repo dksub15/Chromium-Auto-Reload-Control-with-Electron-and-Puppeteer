@@ -16,6 +16,8 @@ Clone o repositório e navegue até a pasta do projeto:
 `cd Chromium-Auto-Reload-Control-with-Electron-and-Puppeteer`
 Instale as dependências do projeto:
 `npm install`
+`npm init -y`
+`npm install electron puppeteer`
 
 Inicie o aplicativo:
 `npx electron main.js`
